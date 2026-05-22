@@ -39,7 +39,8 @@ class Character:
     integrity: BaseQuality
 
     
-    
+    powers: DotQuality
+    skills: DotQuality
     
     
     
