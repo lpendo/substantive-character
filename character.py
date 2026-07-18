@@ -36,11 +36,11 @@ class Character:
 
     health: int
     willpower: int
-    integrity: BaseQuality
+    integrity: DotQuality
 
     
-    powers: DotQuality
-    skills: DotQuality
+    powers: list[DotQuality]
+    skills: list[DotQuality]
     
     
     
